@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RunAllTest">
+    <test name="RunAllTest">
+        <classes>
+            <class name="ManTestPackage.ManTest"/>
+            <class name="WomanTestPackage.WomanTest"/>
+        </classes>
+    </test>
+</suite>
